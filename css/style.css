@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+	color: hsl(0, 0%, 100%) !important;
+	font-family: "Raleway", sans-serif;
+	border: 0;
+}
+
+body {
+	background-color: hsl(217, 28%, 15%);
+}
+
+.navbar-icons {
+	color: gray !important;
+	text-decoration: none;
+	transition: all ease 0.4s;
+	cursor: pointer;
+}
+
+.navbar-icons:hover {
+	color: white !important;
+	border-bottom: 1px white solid;
+}
+
+.introimg {
+	max-width: 900px;
+	width: 100%;
+}
+
+.navbar-toggler-icon {
+	filter: invert(1);
+}
+
+@media (min-width: 992px) {
+	.intro-text {
+		width: 50% !important;
+	}
+
+	.btn {
+		width: 25% !important;
+	}
+}
+
+.button-intro {
+	background-image: linear-gradient(
+		to right,
+		hsl(176, 68%, 64%),
+		hsl(198, 60%, 50%)
+	);
+	transition: all linear 0.5s;
+}
+
+.button-intro:hover {
+	filter: brightness(1.2);
+}
+
+#description-color {
+	background-color: hsl(218, 28%, 13%);
+}
+
+.gray-description {
+	color: rgb(204, 204, 204) !important;
+	font-size: 0.9rem !important;
+}
+
+.howworks {
+	text-decoration: none;
+	border-bottom: 1px cyan solid;
+	color: cyan !important;
+	text-align: start;
+	margin-top: 1rem;
+	cursor: pointer;
+	transition: all ease 0.4s;
+}
+
+.howworks:hover {
+	color: white !important;
+	border-bottom: white 1px solid;
+}
+
+.card {
+	background-color: hsl(219, 30%, 18%);
+}
+
+.contact-card-container {
+	background-color: hsl(216, 53%, 9%) !important;
+	width: 100%;
+	height: 100%;
+}
+.contact-card {
+	background-color: hsl(217, 28%, 15%);
+}
+
+footer {
+	background-color: hsl(216, 53%, 9%) !important;
+}
+
+.pb-8 {
+	padding-bottom: 9rem;
+}
+
+.positioned-contact {
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@media (min-width: 992px) {
+	.contact-card {
+		width: 50% !important;
+	}
+
+	.howworks {
+		width: 50% !important;
+	}
+}
+
+.footerContent {
+	padding-top: 35vh;
+}
